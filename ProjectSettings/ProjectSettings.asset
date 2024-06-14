@@ -140,7 +140,9 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 1.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: 91f63b1cda2f34e86b1d48c5ea883abf, type: 2}
+  - {fileID: 1817189518692956534, guid: a726f1a2991324d1880234c529aa89f3, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -661,7 +663,8 @@ PlayerSettings:
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: KLAK_NDI_ISSUE200_WORKAROUND
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:

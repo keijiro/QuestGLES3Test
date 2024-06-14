@@ -32,12 +32,13 @@
       "url": "https://packages.unity.com"
     },
     "jp.keijiro.klak.ndi": {
-      "version": "file:../../KlakNDI/jp.keijiro.klak.ndi",
+      "version": "2.1.2",
       "depth": 0,
-      "source": "local",
+      "source": "registry",
       "dependencies": {
         "com.unity.modules.screencapture": "1.0.0"
-      }
+      },
+      "url": "https://registry.npmjs.com"
     },
     "com.unity.modules.androidjni": {
       "version": "1.0.0",

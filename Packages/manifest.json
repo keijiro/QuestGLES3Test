@@ -2,7 +2,16 @@
   "dependencies": {
     "com.unity.xr.management": "4.4.1",
     "com.unity.xr.oculus": "4.2.0",
-    "jp.keijiro.klak.ndi": "file:../../KlakNDI/jp.keijiro.klak.ndi",
+    "jp.keijiro.klak.ndi": "2.1.2",
     "com.unity.modules.androidjni": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "Keijiro",
+      "url": "https://registry.npmjs.com",
+      "scopes": [
+        "jp.keijiro"
+      ]
+    }
+  ]
 }
